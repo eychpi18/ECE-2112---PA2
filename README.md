@@ -7,6 +7,8 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls.
 
 In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as X_normalized.npy
+
+#### MY CODE:
 <img width="1281" height="820" alt="image" src="https://github.com/user-attachments/assets/50b38fd9-3829-4979-9c18-c376d886954d" />
 
 
@@ -61,6 +63,8 @@ Create the following 10 x 10 ndarray
 which are the squares of the first 100 positive integers.
 
 From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
+
+#### MY CODE:
 <img width="1279" height="616" alt="image" src="https://github.com/user-attachments/assets/cc9073b9-0403-46a7-82e5-1e46e5b5c997" />
 
 #### EXPLANATION:
