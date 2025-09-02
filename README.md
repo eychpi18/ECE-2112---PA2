@@ -88,6 +88,6 @@ Print the outcome by to see clearly which squarings satisfied the condition.
 
 Step 6:
 Finally, I saved these findings into a div_by_3.npy file with the command np.save("div_by_3.npy", div_by_3). This means that all manipulations can now save or fetch the array without repeating all the computations.
-
+<img width="1278" height="68" alt="image" src="https://github.com/user-attachments/assets/35be300b-68de-46ee-89d0-534c49f7a7c7" />
 
 # -------------------------------- END --------------------------------
