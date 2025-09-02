@@ -1,4 +1,4 @@
-# INTRODUCTION TO PYTHON PROGRAMMING
+<img width="10" height="15" alt="image" src="https://github.com/user-attachments/assets/7c89457e-6618-4bac-b7c9-4cc2c5d6104f" /># INTRODUCTION TO PYTHON PROGRAMMING
 ## NORMALIZATION PROBLEM:
 Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
@@ -71,13 +71,23 @@ Import numpy as np to manipulate arrays and apply mathematical operations effici
 
 Step 2:
 Create an array of the first 100 positive integers with np.arange(1, 101) and squared them with ** 2. I reshaped the outcome into a 10x10 ndarray using .reshape(10, 10) and then assigned it to the variable named A.
-
-
-Print the array to confirm that it had indeed contained the squares of numbers from 1 to 100 in a 10 x 10 format.
-
+<img width="1281" height="77" alt="image" src="https://github.com/user-attachments/assets/acec1afb-c373-4287-9ff0-01ec498b6b02" />
 
 Step 3:
-Use A %3==0 to get all the elements from the array A that are divisible by 3. This simply returns all of the values in an array that indicate that they obey that contingency but I stored it in a variable name div_by_3. 
-This being said, this was an important step because it filtered based on math property, which is a common task in data analysis. Printing the outcome made it possible to see clearly which squarings satisfied the condition.
+Print the array to confirm that it had indeed contained the squares of numbers from 1 to 100 in a 10 x 10 format.
+<img width="1278" height="289" alt="image" src="https://github.com/user-attachments/assets/5b8736c9-47c6-4d91-947d-f4455e618442" />
 
+
+Step 4:
+Use A %3==0 to get all the elements from the array A that are divisible by 3. This simply returns all of the values in an array that indicate that they obey that contingency but I stored it in a variable name div_by_3.
+<img width="1276" height="73" alt="image" src="https://github.com/user-attachments/assets/ab391cc6-c877-4a91-ae88-aa4f4753ec2c" />
+
+Step 5:
+Print the outcome by to see clearly which squarings satisfied the condition.
+<img width="1280" height="151" alt="image" src="https://github.com/user-attachments/assets/98dcf47d-a752-4ccf-88e5-6d46cb9291ff" />
+
+Step 6:
 Finally, I saved these findings into a div_by_3.npy file with the command np.save("div_by_3.npy", div_by_3). This means that all manipulations can now save or fetch the array without repeating all the computations.
+
+
+# -------------------------------- END --------------------------------
